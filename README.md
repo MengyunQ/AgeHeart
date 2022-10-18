@@ -1,7 +1,7 @@
 # AgeHeart
-Generative model for the ageing heart
 paperlink: https://arxiv.org/abs/2208.13146
 
+Generative model for aging cardiac segmentation
 data preprocessing:
 prepare the dataset into labelmap.
 ## Train
@@ -9,8 +9,6 @@ prepare the dataset into labelmap.
 ```python
 python Train_AgeHeart.py --age_loss_weight 1e-1 --dit_loss_weight 1e-1 --cyc_loss_weight 1e-1 --mapping
 ```
-
-## Ageing Heart
 
 
 ## Citations
